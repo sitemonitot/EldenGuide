@@ -12,12 +12,9 @@
 // ══════════════════════════════════════════
 
 const SUPABASE_CONFIG = {
-  url: "TU_PROJECT_URL_AQUI",    // Formato: https://xxxxxxxxxxx.supabase.co
-  anonKey: "TU_ANON_KEY_AQUI"   // JWT largo: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+  url: "https://uvvdliibuutewmmmtlbi.supabase.co",
+  anonKey: "sb_publishable_sq6vT9h-m2JdDclkHMnP6A_t2n3XjOA"
 };
 
 // Detectar si la configuración está lista
-const SUPABASE_CONFIGURADO = (
-  SUPABASE_CONFIG.url !== "TU_PROJECT_URL_AQUI" &&
-  SUPABASE_CONFIG.anonKey !== "TU_ANON_KEY_AQUI"
-);
+const SUPABASE_CONFIGURADO = true;
